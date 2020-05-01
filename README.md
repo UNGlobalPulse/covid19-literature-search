@@ -1,4 +1,4 @@
-# covid19-literature-search
+# COVID-19 Literature Search
 Methodology for automated COVID-19 literature search to identify AI-related articles.
 
 
@@ -16,6 +16,8 @@ The query used by to retrieve results is as follows:
     "Middle East Respiratory Syndrome"[All Fields]
     
 The latest metadataset can be accessed [here](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/latest/metadata.csv). The preprint describing the dataset is available [here](https://www.semanticscholar.org/paper/CORD-19%3A-The-Covid-19-Open-Research-Dataset-Wang-Lo/bc411487f305e451d7485e53202ec241fcc97d3b).
+
+## Filtering and results
 
 We kept only articles containing either a title and an abstract, and only articles with a publication year of 2019 or 2020. For the time period between 1st January 2020 and 24th April 2020, the search retrieved 8,747 COVID-related articles and 216 AI-related articles. We estimate that 11 of the 216 are duplicates based on repetition of the title or author names.
 
