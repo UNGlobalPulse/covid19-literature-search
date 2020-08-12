@@ -19,6 +19,6 @@ The latest metadataset can be accessed [here](https://ai2-semanticscholar-cord-1
 
 ## Filtering and results
 
-We kept only articles containing either a title and an abstract, and only articles with a publication year of 2019 or 2020. We removed articles with a duplicate dataset ID, SHA DOI, PubMed ID, URL, S2 ID, Arxiv ID, PMC ID, or WHO Covidence ID (these fields are described [here](https://github.com/allenai/cord19)). For the time period between 1st January 2020 and 1st August 2020, the search retrieved 36,292 COVID-related articles and 1,305 AI-related articles. 
+We kept only articles containing either a title and an abstract, and only articles with a publication year of 2019 or 2020. We removed articles with a duplicate dataset ID, SHA, DOI, PubMed ID, URL, S2 ID, Arxiv ID, PMC ID, or WHO Covidence ID (these fields are described [here](https://github.com/allenai/cord19)). For the time period between 1st January 2020 and 1st August 2020, the search retrieved 36,292 COVID-related articles and 1,305 AI-related articles. 
 
 ![literature over time](automated_lit_review.png)
